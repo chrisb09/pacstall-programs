@@ -1,0 +1,14 @@
+pkgbase = stl-thumb-kde-deb
+	gives = stl-thumb-kde
+	pkgver = 0.5.0
+	pkgdesc = This is the KDE / KIO plugin for stl-thumb. It shows previews of .stl files in Dolphin and throughout the KDE desktop.
+	url = https://github.com/unlimitedbacon/stl-thumb-kde
+	arch = amd64
+	pacdeps = stl-thumb-deb
+	license = MIT
+	maintainer = chrisb09 <christian.brinkmann09@gmail.com>
+	repology = project: stl-thumb-kde
+	source_amd64 = https://github.com/unlimitedbacon/stl-thumb-kde/releases/download/v0.5.0/stl-thumb-kde_0.5.0_amd64.deb
+	sha256sums_amd64 = 5805b467672cc5a594a74ab9fe2e7985ed5256c8833d035b357a73a9beb50e8a
+
+pkgname = stl-thumb-kde-deb
