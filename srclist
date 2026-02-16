@@ -15636,6 +15636,7 @@ pkgname = ubxi-kde-desktop-git
 ---
 pkgbase = ubxi-lomiri-desktop
 	pkgver = 0.0.1
+	pkgrel = 2
 	pkgdesc = UBXI Lomiri Desktop
 	priority = required
 	arch = amd64
@@ -15660,8 +15661,7 @@ pkgbase = ubxi-lomiri-desktop
 	depends = repowerd
 	depends = usb-modeswitch
 	depends = xwayland
-	depends = mesa-va-drivers
-	depends = mesa-vdpau-drivers
+	depends = mesa-libgallium
 	depends = mesa-vulkan-drivers
 	depends = mir-graphics-drivers-desktop
 	depends = lomiri-addressbook-app
